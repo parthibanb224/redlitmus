@@ -31,7 +31,7 @@ const Login = () => {
     };
 
     return (
-        <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-20 items-center my-2 mx-5 md:mx-0 md:my-0 bg-gradient-to-br from-blue-500 to-indigo-600">
+        <section className="md:h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-20 items-center md:mx-0 md:my-0 bg-gradient-to-br from-blue-500 to-indigo-600">
             <div className="md:w-1/3 max-w-lg">
                 <img
                     src={Whatsapp}
